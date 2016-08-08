@@ -1,0 +1,96 @@
+// Place all the styles related to the Pages controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+body {
+  font-family: "Roboto", sans-serif;
+	background-image: url("https://glvl7w.dm2301.livefilestore.com/y3m6mCy9r-y9FVDBEFbSr9AVO93hsXxHz-SrqiZQV3kKSZsP0zM5t2Khkf_7moRusBAthRZcm0LFTh0kx55wpPrQF-5KIGv6W00HgF26e9j3f1OOzSzsLUZf6mX4ZPZ3_GYRTkbrbaIzcgk0hkE9Ie4eyAGpfXTNiqnON4nXchb2HI?width=1920&height=1080&cropmode=none");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  color: white;
+  background-color: #333;
+}
+
+header h1{
+  font-size: 20;
+  text-align: center;
+}
+
+header ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  font-size: 14;
+}
+
+header li {
+  float: left;
+}
+
+header li a {
+  display: block;
+  text-align: center;
+  padding: 14px 16px;
+  color: white;
+  text-decoration: none;
+}
+
+header li a:hover{
+  text-decoration: none;
+  color: white;
+}
+
+header li a:hover:not(.active) {
+  background-color: #111;
+}
+
+.active {
+  background-color: #4CAF50;
+}
+
+article {
+  display: block;
+  margin-top: 125px;
+  margin-bottom: 60px;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+footer ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  font-size: 14;
+}
+
+footer li {
+  float: right;
+}
+
+footer li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+
+footer li a:hover{
+  text-decoration: none;
+  color: white;
+  background-color: #111;
+}
+
